@@ -1,0 +1,171 @@
+<html>
+    <head>
+        <title>Portfolio Website</title>
+        <style>
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#333;
+}
+
+header {
+    background-color:#333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color:deeppink;
+}
+section img {
+    height: 70%;
+    position: absolute;
+    right:250px ;
+    top: 100px;
+
+}
+section {
+    padding: 30px 20px;
+}
+
+section h2{
+    color:cyan;
+}
+
+footer {
+    background-color:#333;
+    color:#fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+header img {
+
+    position: absolute;
+    left: 150px; /* Adjust the left positioning as needed */
+    top: 0%; /* Adjust vertical positioning if needed */
+    height: 70px;
+     
+}
+#pro{
+    color:crimson;
+}
+#para{
+    font-size: large;
+    color:#fff;
+}
+section h4 {
+    color:cadetblue;
+}
+.fa-java {
+    color: aqua;
+}
+.fa-database{
+    color: aqua;
+}
+.fa-html5{
+    color: aqua;
+}
+.fa-css3-alt{
+    color: aqua;
+}
+.fa-js{
+    color: aqua;
+}
+#image{
+    position: absolute;
+    right: 150px;
+    bottom: 30%;
+    top: 110%;
+    width: 30%;
+    height: 40%;
+    border-radius: 8%;
+}
+#photo{
+    height: 300px;
+    width: 300;
+}
+#mar{
+  color: aqua;
+}
+    </style>
+    </head>
+    <body>
+        <header>
+            <img src="padmalogo.png" width="100">
+           <!-- <img src="Padmaphoto.jpg" alt="logo" width="100">-->
+            <!--<h1>VenkataPadma</h1>-->
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="about">
+            <h4>Hello, It's Me</h4>
+            <h2> VenkataPadma Karrothu</h2>
+            <img src="Padmaphoto.jpg"  id="photo">
+            <p id="para">I am a hard working, 
+                always willing to learn new skills and able to work independently.<br>
+                Currently,I am looking for new career opportunities.
+                To pursue a challenging career<br> involving my technical, analytical and interpersonal skills to give 
+                an outstanding<br> performance to the organization with utmost dedication and commitment to 
+                the mission <br>and vision of the team and the organization.</p>
+                <!--<a href="#">Upload<img src="Venkata_Padma1.pdf"></a>-->
+        </section>
+        <section id="skills">
+            <u id="mar"><h2>Technical Skills</h2></u>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+            <ul>
+                <i class="fa-brands fa-java"></i>
+                <li id="para">Core Java</li>
+                <i class="fa-solid fa-database"></i>
+                <li id="para">SQL</li>
+                <a href="#"></a><i class="fa-brands fa-html5"></i></a>
+                <li id="para">HTML</li>
+                <i class="fa-brands fa-css3-alt"></i>
+                <li id="para">CSS</li>
+                <i class="fa-brands fa-js"></i>
+                <li id="para">Java Script</li>
+            </ul>
+        </section>
+        <section id="project">
+           <u id="mar"> <h2>Project</h2></u>
+            <u id="pro"><h4 id="pro">Air Quality Index Prediction: </h4></u>
+            <img src="aqi.avif" id="image">
+            <p id="para">Air quality index (AQI) is a quantitative tool through which air pollution is measured,<br> 
+                providing information on how clean or polluted the air is. Several countries employ <br>some 
+                type of air quality index to communicate the quality of their air. Some of these<br> systems rely 
+                on measured (monitored) or predicted concentrations of air pollutants <br>(results of modeling 
+                systems). In this project, a methodology for developing an air <br>quality index (AQI). This index 
+                is a national air quality rating system based on the <br>national ambient air quality standards. </p>
+        </section>
+        <section id="contact">
+            <u id="mar"><h2>Contact</h2></u>
+            <form action="#" method="post" id="para">
+                <i class="fa-solid fa-envelope"></i>&nbsp;<label for="email">Email:  karrothupadma014@gmail.com</label>
+                <br><br>
+                <i class="fa-sharp fa-solid fa-address-book"></i>&nbsp;<label for="number">Contact Number:  9100606923</label>
+            </form>
+        </section>
+       <br><br>
+        <footer>
+            <p>&copy; Contact for more info.</p>
+        </footer>   
+    </body>
+</html>
